@@ -1,0 +1,15 @@
+/* Put your css in here */
+
+/*Let's make this card sort stylish*/
+
+.card {
+	margin: 5px;
+	float: left;
+	width: 70px;
+}
+
+.buttons {
+	clear: both;
+	margin: 5px;
+	text-align: center;
+}

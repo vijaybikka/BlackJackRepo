@@ -1,0 +1,25 @@
+<div class="col-sm-12">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Dealer Cards</div>
+        <div class="panel-body">
+            <div ng-repeat="card in DealerCards">
+                <img class="card" ng-src="{{ card.img }}">
+            </div>
+        </div>
+        <div class="panel-footer">Dealer Score: {{DealerValue}} </div>
+    </div>
+</div>
+<div class="container-fluid text-center col-sm-12 ">
+    <p>{{Message}}</p>
+</div>
+<div class="col-sm-12">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Player Cards</div>
+        <div class="panel-body">
+            <div ng-repeat="card in PlayerCards">
+                <img class="card" ng-src="{{ card.img }}">
+            </div>
+        </div>
+        <div class="panel-footer">Player Score: {{PlayerValue}} </div>
+    </div>
+</div>
